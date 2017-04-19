@@ -1,0 +1,42 @@
+/* NAV MENU */
+
+.NAV {
+	@include span-columns(12);
+	border-bottom: 2px solid black;
+	color: black;
+}
+
+.NAV_ITEMS {
+	float: right;
+	margin: 30px;
+}
+
+.NAV_ITEMS a {
+	margin-right: 30px;
+}
+
+.LOGO {
+	float: left;
+	font-size: 25px;
+	margin: 24px;
+	margin-left: 30px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAV MENU END =========================== */
+
+
+
+
+

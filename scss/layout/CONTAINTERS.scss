@@ -1,0 +1,17 @@
+
+#MAIN_WRAP {
+	@include outer-container(100%);
+
+}
+
+#WRAP {
+	@include outer-container(100%);
+}
+
+
+
+.BREAK {
+  margin-bottom: 250px;
+  z-index: 900000;
+  @include span-columns(12);
+}
