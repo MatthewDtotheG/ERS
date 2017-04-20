@@ -14,13 +14,13 @@
 <div class="NAV"> 
 
 	<div class="LOGO">
- 		<a href="index.php">Element Recording Studios</a>
+ 		<a>Element Recording Studios</a>
  	</div>
 
  	<div class="NAV_ITEMS">
  		<a href="studioA.php">Studio A</a>
- 		<a href="studioB.php">Studio B</a>
- 		<a href="staff.php">Staff</a>
+    <a href="studioB.php">Studio B</a>
+    <a href="staff.php">Staff</a>
  		<a>Artists</a>
  		<a>Contact</a>
  	</div>
@@ -29,36 +29,34 @@
 
 
 <div class="SLIDER">
-	IMG SLIDER
+	STUDIO A
 </div>
 
 
-<div class="CONTACT_US">
-	CONTACT US
-</div>
+    <h1 class="STUFF"> Cum sociis natoque penatibus et magnis dis parturient montes,<br> nascetur ridiculus mus.
+    </h1>
+    
+
 
 
 <div id="WRAP">
 
-  <div class="box studio0">
-  		STUDIO A
+  <div class="ITEMS0">
+      Justo Consectetur Dolor Etiam Ligula Justo Consectetur Dolor Etiam Ligula
   </div>
 
-  <div class="box studio1">
-  		STUDIO B
+  <div class="ITEMS1">
+      Justo Consectetur Dolor Etiam Ligula Justo Consectetur Dolor Etiam Ligula
+  </div>
+
+  <div class="ITEMS2">
+      Justo Consectetur Dolor Etiam Ligula Justo Consectetur Dolor Etiam Ligula
   </div>
 
 </div>
 
 
-<div class="MEET">
-	MEET THE STAFF
-</div>
 
-
-<div class="SOCIAL">
-	SOCIAL
-</div>
 
    
 

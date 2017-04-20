@@ -1,0 +1,47 @@
+
+
+.box {
+    height: 600px;
+  	width: 600px;
+}
+
+.studio0,
+.studio1 {
+	@include span-columns(6 of 12, block-collapse)
+ 	border: 2px solid black;
+	text-align: center;
+}
+
+
+.SLIDER {
+	height: 500px;
+	@include span-columns(12);
+	border-bottom: 2px solid black;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.CONTACT_US {
+	height: 350px;
+	@include span-columns(12);
+	border-bottom: 2px solid black;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.MEET {
+	height: 350px;
+	@include span-columns(12);
+	border-bottom: 2px solid black;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.SOCIAL {
+	height: 450px;
+	@include span-columns(12);
+	border-bottom: 2px solid black;
+	margin-top: 50px;
+	text-align: center;
+}

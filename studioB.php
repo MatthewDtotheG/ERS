@@ -14,13 +14,13 @@
 <div class="NAV"> 
 
 	<div class="LOGO">
- 		<a href="index.php">Element Recording Studios</a>
+ 		<a>Element Recording Studios</a>
  	</div>
 
  	<div class="NAV_ITEMS">
  		<a href="studioA.php">Studio A</a>
- 		<a href="studioB.php">Studio B</a>
- 		<a href="staff.php">Staff</a>
+    <a href="studioB.php">Studio B</a>
+    <a href="staff.php">Staff</a>
  		<a>Artists</a>
  		<a>Contact</a>
  	</div>
@@ -29,7 +29,7 @@
 
 
 <div class="SLIDER">
-	IMG SLIDER
+	STUDIO B
 </div>
 
 

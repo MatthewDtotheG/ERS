@@ -1,0 +1,29 @@
+
+
+.STUFF {
+	@include span-columns(12)
+
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+
+
+.ITEMS0 {
+	@include span-columns(4)
+	background-color: red;
+	display: block;
+}
+
+.ITEMS1 {
+	@include span-columns(4)
+	background-color: red;
+	display: block;
+}
+
+.ITEMS2 {
+	@include span-columns(4)
+	background-color: red;
+	display: block;
+}
+
