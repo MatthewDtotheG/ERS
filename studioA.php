@@ -14,7 +14,7 @@
 <div class="NAV"> 
 
 	<div class="LOGO">
- 		<a>Element Recording Studios</a>
+ 		<a href="index.php">Element Recording Studios</a>
  	</div>
 
  	<div class="NAV_ITEMS">
@@ -41,22 +41,61 @@
 
 <div id="WRAP">
 
-  <div class="ITEMS0">
-      Justo Consectetur Dolor Etiam Ligula Justo Consectetur Dolor Etiam Ligula
+  <div class="ITEMS">
+
+      <h2>Preamps & Outboard</h2>
+
+      Justo Consectetur Dolor<br>
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+       Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+       Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
   </div>
 
-  <div class="ITEMS1">
-      Justo Consectetur Dolor Etiam Ligula Justo Consectetur Dolor Etiam Ligula
+  <div class="ITEMS">
+      <h2>Microphones</h2>
+
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
   </div>
 
-  <div class="ITEMS2">
-      Justo Consectetur Dolor Etiam Ligula Justo Consectetur Dolor Etiam Ligula
+  <div class="ITEMS">
+      <h2>Instruments & Amps</h2>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
   </div>
 
 </div>
 
 
-
+<div class="BREAK"></div>
 
    
 

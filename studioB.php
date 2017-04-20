@@ -13,52 +13,89 @@
 
 <div class="NAV"> 
 
-	<div class="LOGO">
- 		<a>Element Recording Studios</a>
- 	</div>
+  <div class="LOGO">
+    <a href="index.php">Element Recording Studios</a>
+  </div>
 
- 	<div class="NAV_ITEMS">
- 		<a href="studioA.php">Studio A</a>
+  <div class="NAV_ITEMS">
+    <a href="studioA.php">Studio A</a>
     <a href="studioB.php">Studio B</a>
     <a href="staff.php">Staff</a>
- 		<a>Artists</a>
- 		<a>Contact</a>
- 	</div>
+    <a>Artists</a>
+    <a>Contact</a>
+  </div>
 
 </div>
 
 
 <div class="SLIDER">
-	STUDIO B
+  STUDIO B
 </div>
 
 
-<div class="CONTACT_US">
-	CONTACT US
-</div>
+    <h1 class="STUFF"> Cum sociis natoque penatibus et magnis dis parturient montes,<br> nascetur ridiculus mus.
+    </h1>
+    
+
 
 
 <div id="WRAP">
 
-  <div class="box studio0">
-  		STUDIO A
+  <div class="ITEMS">
+
+      <h2>Preamps & Outboard</h2>
+
+      Justo Consectetur Dolor<br>
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+       Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+       Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
   </div>
 
-  <div class="box studio1">
-  		STUDIO B
+  <div class="ITEMS">
+      <h2>Microphones</h2>
+
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+  </div>
+
+  <div class="ITEMS">
+      <h2>Instruments & Amps</h2>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
+      Justo Consectetur Dolor<br> 
+      Etiam Ligula Justo<br> 
+      Consectetur Dolor<br> 
+      Etiam Ligula<br>
   </div>
 
 </div>
 
 
-<div class="MEET">
-	MEET THE STAFF
-</div>
-
-
-<div class="SOCIAL">
-	SOCIAL
-</div>
+<div class="BREAK"></div>
 
    
 

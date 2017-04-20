@@ -2,28 +2,25 @@
 
 .STUFF {
 	@include span-columns(12)
-
+	font-size: 25px;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	text-align: center;
 }
 
 
-.ITEMS0 {
-	@include span-columns(4)
-	background-color: red;
-	display: block;
+h2 {
+	font-size: 30px;
 }
 
-.ITEMS1 {
+
+.ITEMS {
 	@include span-columns(4)
-	background-color: red;
 	display: block;
+	text-align: center;
+	line-height: 300%;
 }
 
-.ITEMS2 {
-	@include span-columns(4)
-	background-color: red;
-	display: block;
-}
+
+
 
