@@ -2,25 +2,24 @@
 
 .NAV {
 	@include span-columns(12);
-	border-bottom: 2px solid black;
 	color: black;
 	clear: both;
 }
 
 .NAV_ITEMS {
 	float: right;
-	margin: 30px;
+	margin-right: 60px;
+	margin-top: 40px;
 }
 
 .NAV_ITEMS a {
-	margin-right: 30px;
+	margin-left: 50px;
+	font-size: 20px;
 }
 
 .LOGO {
-	float: left;
-	font-size: 25px;
-	margin: 24px;
-	margin-left: 30px;	
+
+	@include span-columns(4 of 12);
 }
 
 

@@ -14,7 +14,9 @@
 <div class="NAV"> 
 
 	<div class="LOGO">
- 		<a href="index.php">Element Recording Studios</a>
+ 		<a href="index.php">
+    <img src="img/ER.png">
+    </a>
  	</div>
 
  	<div class="NAV_ITEMS">
@@ -28,31 +30,81 @@
 </div>
 
 
-<div class="SLIDER">
-	IMG SLIDER
+ <div id="slides">
+  <ul class="slides-container">
+    <li>
+      <img src="img/STOCK.jpg" alt="">
+     
+    </li>
+    <li>
+      <img src="img/STOCK.jpg" alt="">
+    
+    </li>
+    <li>
+      <img src="img/STOCK.jpg" alt="">
+      
+    </li>
+    <li>
+      <img src="img/STOCK.jpg" alt="">
+    
+    </li>
+    <li>
+      <img src="img/STOCK.jpg" alt="">
+      
+    </li>
+  </ul>
 </div>
 
 
-<div class="CONTACT_US">
-	CONTACT US
-</div>
 
 
 <div id="WRAP">
 
-  <div class="box studio0">
-  		STUDIO A
-  </div>
+  <a class="box studio0" href="MB.php">
+    <div class="container">
+        <img class="image" src="img/STUDIOA.jpg">
+        <div class="middle">
+          <div class="text">STUDIO A
 
-  <div class="box studio1">
-  		STUDIO B
-  </div>
+          </div>
+        </div>
+    </div>
+
+  </a>
+
+
+  <a class="box studio1" href="AC.php">
+   <div class="container">
+        <img class="image" src="img/STUDIOB.jpg">
+        <div class="middle">
+          <div class="text">STUDIO B
+
+          </div>
+        </div>
+    </div>
+
+  </a>
+
 
 </div>
 
 
-<div class="MEET">
-	MEET THE STAFF
+
+<div class="CONTACT_US">
+  
+  <div>
+    Our staff knows precisely how to make your vision a reality.
+    <br>
+    Let's work together.
+  </div>
+
+  <button href="staff.php">Meet the Staff</button>
+
+  <span>
+  </span>
+
+  <button href="contact.php">Contact Us</button>
+
 </div>
 
 
@@ -68,10 +120,9 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js"></script>
+
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script type="text/javascript" src="js/paper-full.min.js"></script>
-<script type="text/paperscript" src="js/dot.js" canvas="myCanvas"></script>
+<script src="js/jquery.superslides.min.js"></script>
 <script src="js/script.js"></script>
 
 </body>

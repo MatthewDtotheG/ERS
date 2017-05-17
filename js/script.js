@@ -27,7 +27,15 @@ $(function(){
 //ANCHOR TAGS END ===============================
 
 
+$(function () {
+  $('#slides').superslides({
+      play: 3000,
+      pagination: false,
+      hashchange: false
+  });
 
+
+});
 
 
 
