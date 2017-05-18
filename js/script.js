@@ -39,6 +39,19 @@ $(function () {
 
 
 
+$(function(){
+    var current = location.pathname;
+    $('.NAV_ITEMS a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.addClass('MENUITEM_ON');
+        }
+    })
+});
+
+
+
 // NAV +===========================
 
 $(document).ready(function(){  

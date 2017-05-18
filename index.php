@@ -16,7 +16,7 @@
 <div class="NAV"> 
 
 	<div class="LOGO">
- 		<a href="index.php">
+ 		<a href="/">
     <img src="img/ER.png">
     </a>
  	</div>
@@ -62,7 +62,7 @@
 
 <div id="WRAP">
 
-  <a class="box studio0" href="MB.php">
+  <a class="box studio0" href="studioA.php">
     <div class="container">
         <img class="image" src="img/STUDIOA.jpg">
         <div class="middle">
@@ -75,7 +75,7 @@
   </a>
 
 
-  <a class="box studio1" href="AC.php">
+  <a class="box studio1" href="studioB.php">
    <div class="container">
         <img class="image" src="img/STUDIOB.jpg">
         <div class="middle">

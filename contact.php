@@ -13,17 +13,17 @@
 <div class="NAV"> 
 
   <div class="LOGO">
-    <a href="index.php">
+    <a href="/">
     <img src="img/ER.png">
     </a>
   </div>
 
   <div class="NAV_ITEMS">
-    <a href="studioA.php">Studio A</a>
-    <a href="studioB.php">Studio B</a>
-    <a href="staff.php">Staff</a>
+    <a href="/studioA.php">Studio A</a>
+    <a href="/studioB.php">Studio B</a>
+    <a href="/staff.php">Staff</a>
     <a href="">Artists</a>
-    <a href="contact.php">Contact</a>
+    <a href="/contact.php">Contact</a>
   </div>
 
 </div>
@@ -82,7 +82,27 @@
 </div>
 
 
+<footer>
+  
+  <a href="https://www.facebook.com/elementrecordingstudios/" target="_blank">
+    <img src="img/FB.png">
+  </a>
 
+  <a href="https://twitter.com/ElementRecord" target="_blank">
+    <img src="img/TWIT.png">
+  </a>
+
+  <a href="https://soundcloud.com/element-recording" target="_blank">
+    <img src="img/SC.png">
+  </a>
+
+  <a href="">
+    <img src="img/YT.png" target="_blank">
+  </a>
+
+  <div>2017 <span>|</span> Element Recording <span>Studios</span> </div>
+
+</footer>
    
 
 
