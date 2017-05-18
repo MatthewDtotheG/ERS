@@ -1,0 +1,16 @@
+
+
+.BLOCKS {
+	@include span-columns(6);
+	margin-top: 150px;
+
+	a {
+		margin: 10px;
+	}
+
+	img {
+		margin-top: 10%;
+		height: 50px;
+		width: 50px;
+	}
+}

@@ -1,8 +1,10 @@
 <html>
   <head>
-    <title> ERS </title>
+    <title> Element Recording Studios </title>
 
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="img/ER CUBE.png"/>
   </head>
 
 
@@ -23,8 +25,8 @@
  		<a href="studioA.php">Studio A</a>
  		<a href="studioB.php">Studio B</a>
  		<a href="staff.php">Staff</a>
- 		<a>Artists</a>
- 		<a>Contact</a>
+ 		<a href="">Artists</a>
+ 		<a href="contact.php">Contact</a>
  	</div>
 
 </div>
@@ -98,19 +100,41 @@
     Let's work together.
   </div>
 
-  <button href="staff.php">Meet the Staff</button>
+  <a href="staff.php">
+  <button>Meet the Staff</button>
+  </a>
 
   <span>
   </span>
 
-  <button href="contact.php">Contact Us</button>
-
+  <a href="contact.php">
+  <button>Contact Us</button>
+  </a>
+  
 </div>
 
 
-<div class="SOCIAL">
-	SOCIAL
-</div>
+<footer>
+	
+  <a href="https://www.facebook.com/elementrecordingstudios/" target="_blank">
+    <img src="img/FB.png">
+  </a>
+
+  <a href="https://twitter.com/ElementRecord" target="_blank">
+    <img src="img/TWIT.png">
+  </a>
+
+  <a href="https://soundcloud.com/element-recording" target="_blank">
+    <img src="img/SC.png">
+  </a>
+
+  <a href="">
+    <img src="img/YT.png" target="_blank">
+  </a>
+
+  <div>2017 <span>|</span> Element Recording <span>Studios</span> </div>
+
+</footer>
 
    
 

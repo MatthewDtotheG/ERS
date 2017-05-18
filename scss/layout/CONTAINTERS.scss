@@ -1,7 +1,10 @@
 
 #MAIN_WRAP {
 	@include outer-container(100%);
+}
 
+#MARGIN_WRAP {
+	@include outer-container(80%);
 }
 
 #WRAP {
