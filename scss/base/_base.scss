@@ -6,6 +6,7 @@ body,
 html {
   margin: 0px;
   background-color: $color-white;
+  font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -14,11 +15,13 @@ a {
 }
 
 
+a:hover {
+	color: $color-gold;
+}
 
-
-
-
-
+.slides {
+	height: 80%;
+}
 
 
 

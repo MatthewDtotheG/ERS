@@ -1,1 +1,141 @@
 
+.STAFF_TITLE {
+	@include span-columns(12)
+	font-family: 'Work Sans', sans-serif;
+	font-size: 30px;
+	padding-top: 120px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+.STAFF_BLURB {
+	@include span-columns(12)
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+.STAFF_BOTTOM {
+	@include span-columns(12)
+	font-family: 'Work Sans', sans-serif;
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+.STAFF_CONTACT {
+	height: 350px;
+	@include span-columns(12);
+	margin-top: 50px;
+	text-align: center;
+
+		div {
+		@include span-columns(12);
+		font-size: 30px;
+	}
+
+	span {
+		margin: 0px 5%; 
+	}
+
+	button {
+		@include span-columns(4 of 12, table);
+		margin-top: 50px;
+		margin-bottom: 50px;
+		border-radius: 10px;
+		display: inline-block;
+		height: 80px;
+		font-size: 20px;
+		background-color: black;
+		color: white;
+		transition: .5s ease;
+	}	
+
+	button:hover {
+		background-color: white;
+		color: black;
+		border: 1px solid black;
+	}
+}
+
+
+.ITEMS_0 {
+	@include span-columns(6)
+	display: block;
+	margin-bottom: 200px;
+	text-align: center;
+	line-height: 200%;
+	padding: 30px;
+
+	h2 {
+		margin-top: 40px;
+		font-size: 30px;
+		font-family: 'Work Sans', sans-serif;
+	}
+
+	h3 {
+		color: $color-gold;
+		font-size: 16px;
+		font-family: 'Work Sans', sans-serif;
+	}
+
+	p {
+		font-size: 16px;
+		font-family: 'Work Sans', sans-serif;
+	}
+
+	img {
+		border-radius: 50%;
+		height: 300px;
+		width: 300px;
+	}
+
+}
+
+.ITEMS_1 {
+	@include span-columns(4)
+	display: block;
+	margin-bottom: 100px;
+	text-align: center;
+	line-height: 200%;
+
+
+	h2 {
+		margin-top: 40px;
+		font-size: 30px;
+		font-family: 'Work Sans', sans-serif;
+	}
+
+	img {
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+	}
+
+	h3 {
+
+		color: $color-gold;
+		font-size: 16px;
+		font-family: 'Work Sans', sans-serif;
+	}
+
+	p {
+		font-size: 16px;
+		font-family: 'Work Sans', sans-serif;
+	}
+
+}
+
+
+.RATES {
+	margin-top: 60px;
+	line-height: 100%;
+}
+
+.STAFF_NAMES {
+	font-size: 30px;
+	text-align: center;
+}
