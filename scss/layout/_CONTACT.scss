@@ -5,7 +5,18 @@
 	margin-top: 150px;
 
 	a {
-		margin: 10px;
+		color: $color-gold;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: black;
+	}
+
+	h2 {
+		text-decoration: none;
+		font-family: 'Work Sans', sans-serif;
+		font-size: 18px;
 	}
 
 	img {
@@ -13,4 +24,75 @@
 		height: 50px;
 		width: 50px;
 	}
+
+	p {
+		font-size: 18px;
+	}
+
+	h1 {
+		font-family: 'Work Sans', sans-serif;
+		font-size: 40px;
+	}
+
+	span {
+		color: $color-gold;
+		font-family: 'Work Sans', sans-serif;
+	}
+}
+
+.FORM0 {
+	background-color: $color-white;
+	border: 1px solid black;
+	font-size: 18px;
+}
+
+.SEND {
+	background-color: black;
+	color: $color-gold;
+	transition: .5s ease;
+}
+
+.SEND:hover {
+	background-color: $color-gold;
+	color: black;
+}
+
+form {
+  background-color: $color-white;
+  margin-top: 30px;
+  margin-bottom: 200px;
+  font-size: 18px;
+  -webkit-appearance: none;
+
+}
+
+input, 
+textarea {
+  background-color: $color-white;
+  border: 1px solid black;
+  padding: 10px;
+  padding-left: 5px;
+  margin: 0px 0px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  -webkit-appearance: none;
+}
+
+
+
+input:focus,
+textarea:focus {
+    outline: none !important;
+    border:1px solid black;
+    border-color: black;
+    box-shadow: black;
+    border-color: none;
+}
+
+textarea {
+  height: 187px;
 }

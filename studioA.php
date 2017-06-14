@@ -22,7 +22,7 @@
     <a href="/studioA.php">Studio A</a>
     <a href="/studioB.php">Studio B</a>
     <a href="/staff.php">Staff</a>
-    <a href="">Artists</a>
+    <a href="artists.php">Artists</a>
     <a href="/contact.php">Contact</a>
   </div>
 
@@ -54,69 +54,217 @@
   </ul>
 </div>
 
-    <h1 class="STUFF">Studio A is our primary liveroom, includes 2 isolation rooms,<br> and offers the best in both Analog & Digital recording.
+  <div class="title">
+      <div>Studio A</div>
+  </div>
+
+
+    <h1 class="STUDIO_BLURB">Studio A is our primary liveroom, includes 2 isolation rooms,<br> and offers the best in both Analog & Digital recording.
     </h1>
     
 
 
-
-<div id="WRAP">
-
-  <div class="ITEMS">
-
-      <h2>Preamps & Outboard</h2>
-
-      Justo Consectetur Dolor<br>
-      Etiam Ligula Justo<br> 
-      Consectetur Dolor<br> 
-      Etiam Ligula<br>
-       Justo Consectetur Dolor<br> 
-      Etiam Ligula Justo<br> 
-      Consectetur Dolor<br> 
-      Etiam Ligula<br>
-       Justo Consectetur Dolor<br> 
-      Etiam Ligula Justo<br> 
-      Consectetur Dolor<br> 
-      Etiam Ligula<br>
-  </div>
-
-  <div class="ITEMS">
-      <h2>Microphones</h2>
-
-      Justo Consectetur Dolor<br> 
-      Etiam Ligula Justo<br> 
-      Consectetur Dolor<br> 
-      Etiam Ligula<br>
-      Justo Consectetur Dolor<br> 
-      Etiam Ligula Justo<br> 
-      Consectetur Dolor<br> 
-      Etiam Ligula<br>
-      Justo Consectetur Dolor<br> 
-      Etiam Ligula Justo<br> 
-      Consectetur Dolor<br> 
-      Etiam Ligula<br>
-  </div>
-
-  <div class="ITEMS">
-      <h2>Instruments & Amps</h2>
-      Justo Consectetur Dolor<br> 
-      Etiam Ligula Justo<br> 
-      Consectetur Dolor<br> 
-      Etiam Ligula<br>
-      Justo Consectetur Dolor<br> 
-      Etiam Ligula Justo<br> 
-      Consectetur Dolor<br> 
-      Etiam Ligula<br>
-      Justo Consectetur Dolor<br> 
-      Etiam Ligula Justo<br> 
-      Consectetur Dolor<br> 
-      Etiam Ligula<br>
-  </div>
-
-</div>
+    <div class="STUDIO_BLURB1">Microphones</div>
 
 
-<div class="BREAK"></div>
+    <div id="WRAP">
+
+      <div class="ITEMS">
+
+          <h2>Preamps & Outboard</h2>
+
+          Justo Consectetur Dolor<br>
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+           Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+           Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+      </div>
+
+      <div class="ITEMS">
+          <h2>Microphones</h2>
+
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+      </div>
+
+      <div class="ITEMS">
+          <h2>Instruments & Amps</h2>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+      </div>
+
+    </div>
+
+
+
+<div class="STUDIO_BLURB1">Outboard</div>
+
+
+    <div id="WRAP">
+
+      <div class="ITEMS">
+
+          Justo Consectetur Dolor<br>
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+           Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+      </div>
+
+      <div class="ITEMS">
+
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+      </div>
+
+      <div class="ITEMS">
+
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+      </div>
+
+    </div>
+
+
+    <div class="STUDIO_BLURB1">Instruments</div>
+
+
+    <div id="WRAP">
+
+      <div class="ITEMS">
+
+          <h2>Keyboards</h2>
+
+          Justo Consectetur Dolor<br>
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+           Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+           Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+      </div>
+
+      <div class="ITEMS">
+          <h2>Guitars/Strings</h2>
+
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+      </div>
+
+      <div class="ITEMS">
+          <h2>Percussion</h2>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+      </div>
+
+    </div>
+
+
+    <div class="STUDIO_BLURB1">Amplifiers</div>
+
+
+    <div id="WRAP">
+
+      <div class="ITEMS">
+
+          Justo Consectetur Dolor<br>
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+           Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+      </div>
+
+      <div class="ITEMS">
+
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+      </div>
+
+      <div class="ITEMS">
+
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+          Consectetur Dolor<br> 
+          Etiam Ligula<br>
+          Justo Consectetur Dolor<br> 
+          Etiam Ligula Justo<br> 
+      </div>
+
+    </div>
+
+    <div class="STUDIO_BLURB">Want to book some time or find out more?</div>
+
+    <div class="STAFF_CONTACT">
+      <a href="contact.php">
+        <button>Contact Us</button>
+      </a>
+    </div>
 
 
 <footer>

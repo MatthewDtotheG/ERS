@@ -22,7 +22,7 @@
     <a href="/studioA.php">Studio A</a>
     <a href="/studioB.php">Studio B</a>
     <a href="/staff.php">Staff</a>
-    <a href="">Artists</a>
+    <a href="artists.php">Artists</a>
     <a href="/contact.php">Contact</a>
   </div>
 
@@ -35,28 +35,26 @@
   <div class="BLOCKS">
   		<h1>Contact Us</h1>
 
-      <div>
-        Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo.
+      <p>
+        Interested in booking time with us?<br>
+        Feel free to hollar via phone call or email. <br>
+        You can also submit a direct message via the form to the right. <br>
+      </p>
 
-      </div>
+      <p>
+        Pricing, rates, and policy information can be found on our<br>
+        <a href="staff.php">Staff</a> page.
+      </p>
 
-      <h1>Call Us at <a>913-645-5961</a></h1>
+      <p>
+        Gear, space, and software information can be found on our<br>
+        <a href="studioA.php">Studio A</a> and  <a href="studioB.php">Studio B</a> pages.
+      </p>
 
-        <a href="https://www.facebook.com/elementrecordingstudios/" target="_blank">
-          <img src="img/FB.png">
-        </a>
 
-        <a href="https://twitter.com/ElementRecord" target="_blank">
-          <img src="img/TWIT.png">
-        </a>
+      <h2>Phone: <a> 913-645-5961</a></h2>
+      <h2>Email: <a> elementrecordingstudios@hotmail.com</a></h2>
 
-        <a href="https://soundcloud.com/element-recording" target="_blank">
-          <img src="img/SC.png">
-        </a>
-
-        <a href="">
-          <img src="img/YT.png" target="_blank">
-        </a>
   </div>
 
 
@@ -64,18 +62,21 @@
   <div class="BLOCKS">
   		<form id="ajax-contact" method="post" action="mailer.php">
         
+
+          <span>NAME</span>     
+          <input class="FORM0" type="text" id="name" name="name" required><br>
+          <span>E-MAIL</span>
+          <input class="FORM0" type="text" id="email" name="email" required><br>
+          
+
         <div class="FORM1">
-          MESSAGE*<br>
-          <textarea id="message" name="message" class="MESSAGE" required></textarea><br>
+          <span>MESSAGE</span>
+          <textarea id="message" name="message" class="MESSAGE" required></textarea>
+          <br>
         </div>
-        
-        <div class="FORM0">
-          NAME*<br>      
-          <input type="text" id="name" name="name" required><br>
-          E-MAIL*
-          <input type="text" id="email" name="email" required><br>
-          <input class="SEND" type="submit" value="SEND">
-        </div>
+
+        <input class="SEND" type="submit" value="SEND">
+
       </form>
   </div>
 

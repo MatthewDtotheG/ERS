@@ -1,16 +1,27 @@
 
 
-.STUFF {
+.STUDIO_BLURB,
+.STUDIO_BLURB1 {
 	@include span-columns(12)
-	font-size: 25px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 30px;
 	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-bottom: 20px;
 	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.STUDIO_BLURB1 {
+	padding-bottom: 50px;
+	font-size: 30px;
 }
 
 
 h2 {
-	font-size: 30px;
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: normal;
 }
 
 
@@ -19,6 +30,27 @@ h2 {
 	display: block;
 	text-align: center;
 	line-height: 300%;
+
+	@media #{$brk-small} {
+		@include span-columns(12)
+	}
+
+}
+
+.title {
+	max-width: 100%;
+
+	div {
+		  width: 100%;
+		  text-align: center;
+		  margin: auto;
+		  margin-top: -40%;
+		  font-size: 100px;
+		  color: white;
+		  position: absolute;
+		  display: block;
+		  z-index: 9999;
+	}
 }
 
 

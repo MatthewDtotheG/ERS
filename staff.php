@@ -23,7 +23,7 @@
     <a href="/studioA.php">Studio A</a>
     <a href="/studioB.php">Studio B</a>
     <a href="/staff.php">Staff</a>
-    <a href="">Artists</a>
+    <a href="artists.php">Artists</a>
     <a href="/contact.php">Contact</a>
   </div>
 
