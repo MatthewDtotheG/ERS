@@ -3,21 +3,24 @@
 .box {
     height: 600px;
   	width: 600px;
+
+  	@media (max-width: 768px) {
+		height: auto;
+		width: 100%;
+	}
 }
 
 .studio0,
 .studio1 {
 	@include span-columns(6 of 12, table);
 
+	@media (max-width: 768px) {
+		@include span-columns(12 of 12);
+		height: auto;
+	}
+
 }
 
-
-.SLIDER {
-	height: 500px;
-	@include span-columns(12);
-	margin-top: 50px;
-	text-align: center;
-}
 
 .CONTACT_US {
 
@@ -28,7 +31,12 @@
 
 	div {
 		@include span-columns(12);
-		font-size: 30px;
+			font-size: 30px;
+
+		@media (max-width: 768px) {
+			font-size: 20px;
+			margin-bottom: 80px;
+		}
 	}
 
 	span {
@@ -46,6 +54,15 @@
 		background-color: black;
 		color: white;
 		transition: .5s ease;
+
+		@media (max-width: 768px) {
+			@include span-columns(10 of 12, table);
+			font-size: 20px;
+			height: 80px;
+			margin: auto;
+			margin-top: 80px;
+			display: block;
+		}
 	}	
 
 	button:hover {
@@ -65,15 +82,30 @@ footer {
 	margin-top: 50px;
 	text-align: center;
 
+	@media (max-width: 768px) {
+			margin-top: 160px;
+		}
+
 
 	a {
 		margin: 80px;
+
+		@media (max-width: 768px) {
+			margin: 15px;
+		}
 	}
 
 	img {
 		margin-top: 10%;
 		height: 70px;
 		width: 70px;
+
+		@media (max-width: 768px) {
+			margin-top: 20%;
+			height: 40px;
+			width: 40px;
+			display: inline;
+		}
 	}
 
 	span {

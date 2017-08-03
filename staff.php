@@ -11,33 +11,42 @@
 <div id="MAIN_WRAP">
 
 
-<div class="NAV"> 
+<div id="NAV" class="NAV">
 
+ 
   <div class="LOGO">
     <a href="/">
-    <img src="img/ER.png">
+    <img class="image_full" src="img/ER.png">
+    <img class="image_mobile" src="img/ER CUBE.png">
     </a>
   </div>
 
-  <div class="NAV_ITEMS">
-    <a href="/studioA.php">Studio A</a>
-    <a href="/studioB.php">Studio B</a>
-    <a href="/staff.php">Staff</a>
-    <a href="artists.php">Artists</a>
-    <a href="/contact.php">Contact</a>
+  <div id="NAVMENU">
+    <div class="nav-mobile-wrap">
+      <div class="NAV_ITEMS">
+        <a href="studioA.php">Studio A</a>
+        <a href="studioB.php">Studio B</a>
+        <a href="staff.php">Staff</a>
+        <a href="artists.php">Artists</a>
+        <a href="contact.php">Contact</a>
+      </div>
+    </div>
   </div>
+
+      <a class="toggle-nav">
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
 
 </div>
 
 
   <h1 class="STAFF_TITLE"> Work with the best.</h1>
   <p class="STAFF_BLURB">Our staff has decades of experience producing, recording, mixing, and mastering.</p>
-
-
-
-
-
-
 
 
 
@@ -50,14 +59,10 @@
       </div>
 
       <h2>Joel Nanos</h2>
-      <h3>Owner; Recording/Mix/Mastering Engineer</h3>
+      <h3>Owner / Recording, Mix &amp; Mastering Engineer</h3>
 
     <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
-    </p>
-
-    <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
+      Joel works in multiple genres with regional, national, and international artists. He leans toward a classic analog recording/mixing style and draws from a lifetime of industry experience as a musician, songwriter, and partner at both Coil Audio and C &amp; C Drum Co.  Credits: Madisen Ward and/Momma Bear, Sly  &amp; Robbie (w/The Taxi Gang), Radkey, Mumford and Sons, Berwanger, Akkilles, Making Movies, The Architects, Grisly Hand, Train, Minden, Triptides, Radar State, The Sluts. Record labels Universal, Glassnote, Fat Possum, ATC, SubPop, Caroline. Co-credits include Grammy, Gold and Platinum selling producers Jim Abiss, Steve Berlin, Doug Boehm, Larry Crane, &amp; Stephen Edgerton. 
     </p>
 
     <div class="RATES">
@@ -74,14 +79,10 @@
 
       <img src="img/LENNON.png" alt="">
       <h2>Lennon Bone</h2>
-      <h3>Producer; Recording & Mix Engineer</h3>
+      <h3>Producer / Recording &amp; Mix Engineer</h3>
 
     <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
-    </p>
-
-    <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
+      Lennon believes you begin working with someone to take your art in new directions. His work has been featured on TV &amp; films such as Nashville, Criminal Minds, Catfish, Gossip Girl, and The Meddler. He’s had 3 Billboard Top 200 albums and toured 13+ countries as the Drummer for HaHa Tonka. Lennon also scores music for film, television, games, Premium Beat and Shutterstock. Credits: Katie Guillen and the Girls, The Too's, Clay Hughes, Shadow Rabbits, Making Movies, The Thunderclaps, Vincent Williams and collaborations with Okkervil River/Murder by Death, The Springs Standards, MS MR, Lucius, K. Flay.
     </p>
 
     <div class="RATES">
@@ -103,15 +104,12 @@
 
       <img src="img/BRANDON.png" alt="">
       <h2>Brandon Phillips</h2>
-      <h3>Engineer</h3>
+      <h3>Producer / Recording &amp; Mix Engineer</h3>
 
     <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
+      Brandon Phillips has twenty years experience in music composition, songwriting, production and performance with more than a dozen album credits in the rock &amp; pop genres as well as commercial/film composition for ESPN, Deadliest Catch, Shameless, Gatorade, Saints Row 2, Wendy’s, McDonalds, and Daytona International. Credits: The Gadjits, The Architects, Brian Marquis, Berwanger, Other Americans, Savannah Terez. 
     </p>
 
-    <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
-    </p>
 
     <div class="RATES">
       <h3>Rate</h3>
@@ -127,13 +125,9 @@
 
       <img src="img/ADAM.png" alt="">
       <h2>Adam McGill</h2>
-      <h3>Recording/Mix Engineer</h3>
+      <h3>Recording &amp; Mix Engineer</h3>
     <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
-    </p>
-
-    <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
+      Adam has over a decade of experience playing and recording pop, rock, indie, hip-hop, R&amp;B, and country. As a founding member of The Republic Tigers he produced &amp; engineered the bands "Keep Color" LP 2008 and has worked with many popular local, regional, and national acts. Credits: Alicia Solo, The Beautiful Bodies, Rev Gusto, The Blackbird Revue, The Conquerors.
     </p>
 
     <div class="RATES">
@@ -152,15 +146,11 @@
       <img src="img/NONAME.png" alt="">
 
 
-      <h2>Noname Jimbo</h2>
-      <h3>Senior Lackey</h3>
+      <h2>Chase Horseman</h2>
+      <h3>Producer / Recording &amp; Mix Engineer</h3>
      
     <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
-    </p>
-
-    <p>
-      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
+      Chase is a film composer, songwriter, producer, and multi-instrumentalist. He studied composition at KSU and has a Bachelor’s of General Studies in Film Production from The University of Kansas. Since acquiring his degree, he has composed for a steady stream of visual works, including Luchagore Productions films award winning El Gigante, & Warner Brothers La Quinceanera. Credits: Towers, KD Kuro, Teri Quinn, Narkalark, Cairaudients, Fake Natives.  
     </p>
 
     <div class="RATES">

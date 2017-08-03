@@ -13,49 +13,64 @@
 <div id="MAIN_WRAP">
 
 
-<div class="NAV"> 
+<div id="NAV" class="NAV">
 
-	<div class="LOGO">
- 		<a href="/">
-    <img src="img/ER.png">
+ 
+  <div class="LOGO">
+    <a href="/">
+    <img class="image_full" src="img/ER.png">
+    <img class="image_mobile" src="img/ER CUBE.png">
     </a>
- 	</div>
+  </div>
 
- 	<div class="NAV_ITEMS">
- 		<a href="studioA.php">Studio A</a>
- 		<a href="studioB.php">Studio B</a>
- 		<a href="staff.php">Staff</a>
- 		<a href="artists.php">Artists</a>
- 		<a href="contact.php">Contact</a>
- 	</div>
+  <div id="NAVMENU">
+    <div class="nav-mobile-wrap">
+     	<div class="NAV_ITEMS">
+     		<a href="studioA.php">Studio A</a>
+     		<a href="studioB.php">Studio B</a>
+     		<a href="staff.php">Staff</a>
+     		<a href="artists.php">Artists</a>
+     		<a href="contact.php">Contact</a>
+     	</div>
+    </div>
+  </div>
+
+      <a class="toggle-nav">
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
 
 </div>
 
 
- <div id="slides">
-  <ul class="slides-container">
-    <li>
-      <img src="img/STOCK.jpg" alt="">
-     
-    </li>
-    <li>
-      <img src="img/STOCK.jpg" alt="">
-    
-    </li>
-    <li>
-      <img src="img/STOCK.jpg" alt="">
+  <div id="slides">
+    <ul class="slides-container">
+      <li>
+        <img src="img/2.jpg" alt="">
+       
+      </li>
+      <li>
+        <img src="img/0.jpg" alt="">
       
-    </li>
-    <li>
-      <img src="img/STOCK.jpg" alt="">
-    
-    </li>
-    <li>
-      <img src="img/STOCK.jpg" alt="">
+      </li>
+      <li>
+        <img src="img/1.jpg" alt="">
+        
+      </li>
+      <li>
+        <img src="img/STOCK.jpg" alt="">
       
-    </li>
-  </ul>
-</div>
+      </li>
+      <li>
+        <img src="img/STOCK.jpg" alt="">
+        
+      </li>
+    </ul>
+  </div>
 
 
 
@@ -66,12 +81,9 @@
     <div class="container">
         <img class="image" src="img/STUDIOA.jpg">
         <div class="middle">
-          <div class="text">STUDIO A
-
-          </div>
+          <div class="text">STUDIO A</div>
         </div>
     </div>
-
   </a>
 
 
@@ -79,12 +91,9 @@
    <div class="container">
         <img class="image" src="img/STUDIOB.jpg">
         <div class="middle">
-          <div class="text">STUDIO B
-
-          </div>
+          <div class="text">STUDIO B</div>
         </div>
-    </div>
-
+   </div>
   </a>
 
 

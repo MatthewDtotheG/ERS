@@ -11,6 +11,15 @@
 	@include outer-container(100%);
 }
 
+#WRAP_PARTNERS {
+	@include outer-container(75%);
+
+	@media #{$brk-narrow} {
+		@include outer-container(100%)
+	}
+
+}
+
 
 .BREAK {
   margin-bottom: 250px;

@@ -31,7 +31,8 @@ $(function () {
   $('#slides').superslides({
       play: 3000,
       pagination: false,
-      hashchange: false
+      hashchange: false,
+
   });
 
 
@@ -52,7 +53,7 @@ $(function(){
 
 
 
-// NAV +===========================
+/* NAV +===========================
 
 $(document).ready(function(){  
         $("#NAV").hide();                  
@@ -65,7 +66,7 @@ $(document).ready(function(){
         });
     });
 
-// NAV  +===========================
+*/ // NAV  +===========================
 
 
 

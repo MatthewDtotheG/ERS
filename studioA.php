@@ -10,21 +10,36 @@
 
 <div id="MAIN_WRAP">
 
-<div class="NAV"> 
+<div id="NAV" class="NAV">
 
+ 
   <div class="LOGO">
     <a href="/">
-    <img src="img/ER.png">
+    <img class="image_full" src="img/ER.png">
+    <img class="image_mobile" src="img/ER CUBE.png">
     </a>
   </div>
 
-  <div class="NAV_ITEMS">
-    <a href="/studioA.php">Studio A</a>
-    <a href="/studioB.php">Studio B</a>
-    <a href="/staff.php">Staff</a>
-    <a href="artists.php">Artists</a>
-    <a href="/contact.php">Contact</a>
+  <div id="NAVMENU">
+    <div class="nav-mobile-wrap">
+      <div class="NAV_ITEMS">
+        <a href="studioA.php">Studio A</a>
+        <a href="studioB.php">Studio B</a>
+        <a href="staff.php">Staff</a>
+        <a href="artists.php">Artists</a>
+        <a href="contact.php">Contact</a>
+      </div>
+    </div>
   </div>
+
+      <a class="toggle-nav">
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
 
 </div>
 
@@ -64,7 +79,7 @@
     
 
 
-    <div class="STUDIO_BLURB1">Microphones</div>
+    <div class="STUDIO_BLURB1"><span>Microphones</span></div>
 
 
     <div id="WRAP">

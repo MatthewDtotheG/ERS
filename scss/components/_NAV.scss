@@ -23,7 +23,16 @@
 
 .LOGO {
 	@include span-columns(4 of 12);
+
 }
+
+
+
+
+.image_mobile{
+  display:none;
+ }
+
 
 
 .MENUITEM_ON {

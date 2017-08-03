@@ -13,21 +13,36 @@
 <div id="MAIN_WRAP">
 
 
-<div class="NAV"> 
+<div id="NAV" class="NAV">
 
-	<div class="LOGO">
- 		<a href="/">
-    <img src="img/ER.png">
+ 
+  <div class="LOGO">
+    <a href="/">
+    <img class="image_full" src="img/ER.png">
+    <img class="image_mobile" src="img/ER CUBE.png">
     </a>
- 	</div>
+  </div>
 
- 	<div class="NAV_ITEMS">
- 		<a href="studioA.php">Studio A</a>
- 		<a href="studioB.php">Studio B</a>
- 		<a href="staff.php">Staff</a>
- 		<a href="">Artists</a>
- 		<a href="contact.php">Contact</a>
- 	</div>
+  <div id="NAVMENU">
+    <div class="nav-mobile-wrap">
+      <div class="NAV_ITEMS">
+        <a href="studioA.php">Studio A</a>
+        <a href="studioB.php">Studio B</a>
+        <a href="staff.php">Staff</a>
+        <a href="artists.php">Artists</a>
+        <a href="contact.php">Contact</a>
+      </div>
+    </div>
+  </div>
+
+      <a class="toggle-nav">
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
 
 </div>
 
@@ -38,19 +53,19 @@
 <div id="WRAP">
 
       <div class="ALBUMS">
-            <img src="img/STUDIOB.jpg">
+            <img src="img/ART0.jpg">
       </div>
 
       <div class="ALBUMS">
-            <img src="img/STUDIOB.jpg">
+            <img src="img/ART1.jpg">
       </div>
 
        <div class="ALBUMS">
-            <img src="img/STUDIOB.jpg">
+            <img src="img/ART2.jpg">
       </div>
 
        <div class="ALBUMS">
-            <img src="img/STUDIOB.jpg">
+            <img src="img/ART3.jpg">
       </div>
 
 </div>
@@ -59,24 +74,22 @@
 <div id="WRAP">
 
       <div class="ALBUMS">
-            <img src="img/STUDIOA.jpg">
+            <img src="img/ART4.jpg">
       </div>
 
       <div class="ALBUMS">
-            <img src="img/STUDIOA.jpg">
+            <img src="img/ART5.jpg">
       </div>
 
        <div class="ALBUMS">
-            <img src="img/STUDIOA.jpg">
+            <img src="img/ART6.jpg">
       </div>
 
        <div class="ALBUMS">
-            <img src="img/STUDIOA.jpg">
+            <img src="img/ART7.jpg">
       </div>
 
 </div>
-
-
 
 <div class="ARTISTS">
   
@@ -159,6 +172,106 @@
       <h2>
         View the labels, partners, publishers, and organizations that feature our work.
       </h2>
+
+
+
+<div id="WRAP_PARTNERS">
+
+      <div class="PARTNERS">
+            <img src="img/SVG0.svg">
+      </div>
+
+      <div class="PARTNERS">
+            <img src="img/SVG1.svg">
+      </div>
+
+       <div class="PARTNERS">
+            <img src="img/SVG2.svg">
+      </div>
+
+       <div class="PARTNERS">
+            <img src="img/SVG3.svg">
+      </div>
+
+      <div class="PARTNERS">
+            <img src="img/SVG4.svg">
+      </div>
+
+</div>      
+
+
+<div id="WRAP_PARTNERS">
+
+      <div class="PARTNERS">
+            <img src="img/SVG5.svg">
+      </div>
+
+      <div class="PARTNERS">
+            <img src="img/SVG6.svg">
+      </div>
+
+       <div class="PARTNERS">
+            <img src="img/SVG7.svg">
+      </div>
+
+       <div class="PARTNERS">
+            <img src="img/SVG8.svg">
+      </div>
+
+      <div class="PARTNERS">
+            <img src="img/SVG9.svg">
+      </div>
+
+</div>
+
+
+<div id="WRAP_PARTNERS">
+
+      <div class="PARTNERS">
+            <img src="img/SVG11.svg">
+      </div>
+
+      <div class="PARTNERS">
+            <img src="img/SVG10.svg">
+      </div>
+
+       <div class="PARTNERS">
+            <img src="img/SVG12.svg">
+      </div>
+
+       <div class="PARTNERS">
+            <img src="img/SVG13.svg">
+      </div>
+
+      <div class="PARTNERS">
+            <img src="img/SVG14.svg">
+      </div>
+
+</div>
+
+<div id="WRAP_PARTNERS">
+
+      <div class="PARTNERS">
+            <img src="img/SVG15.svg">
+      </div>
+
+      <div class="PARTNERS">
+            <img src="img/SVG16.svg">
+      </div>
+
+       <div class="PARTNERS">
+            <img src="img/SVG17.svg">
+      </div>
+
+       <div class="PARTNERS">
+            <img src="img/SVG18.svg">
+      </div>
+
+      <div class="PARTNERS">
+            <img src="img/SVG19.svg">
+      </div>
+
+</div>
 
 
 

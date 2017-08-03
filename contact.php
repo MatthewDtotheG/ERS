@@ -8,23 +8,36 @@
 
 <body>
 
-<div id="MAIN_WRAP">
+<div id="NAV" class="NAV">
 
-<div class="NAV"> 
-
+ 
   <div class="LOGO">
     <a href="/">
-    <img src="img/ER.png">
+    <img class="image_full" src="img/ER.png">
+    <img class="image_mobile" src="img/ER CUBE.png">
     </a>
   </div>
 
-  <div class="NAV_ITEMS">
-    <a href="/studioA.php">Studio A</a>
-    <a href="/studioB.php">Studio B</a>
-    <a href="/staff.php">Staff</a>
-    <a href="artists.php">Artists</a>
-    <a href="/contact.php">Contact</a>
+  <div id="NAVMENU">
+    <div class="nav-mobile-wrap">
+      <div class="NAV_ITEMS">
+        <a href="studioA.php">Studio A</a>
+        <a href="studioB.php">Studio B</a>
+        <a href="staff.php">Staff</a>
+        <a href="artists.php">Artists</a>
+        <a href="contact.php">Contact</a>
+      </div>
+    </div>
   </div>
+
+      <a class="toggle-nav">
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
 
 </div>
 
@@ -52,8 +65,8 @@
       </p>
 
 
-      <h2>Phone: <a> 913-645-5961</a></h2>
-      <h2>Email: <a> elementrecordingstudios@hotmail.com</a></h2>
+      <h2>Phone: <a style="cursor:pointer"> 913-645-5961</a></h2>
+      <h2>Email: <a style="cursor:pointer"> elementrecordingstudios@hotmail.com</a></h2>
 
   </div>
 

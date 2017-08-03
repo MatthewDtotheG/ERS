@@ -4,6 +4,24 @@
 	@include span-columns(3 of 12, table);
 }
 
+.PARTNERS {
+	@include span-columns(2 of 10);
+	margin: 10px;
+
+	div img {
+		height: 120px;
+		width: 120px;
+
+	@media #{$brk-narrow} {
+		height: 100px;
+		width: 100px;
+		}
+	}
+
+
+
+}
+
 .AUDIO {
 	position: relative;
 	margin-bottom: 100px;
