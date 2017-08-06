@@ -16,8 +16,21 @@
 
 	@media #{$brk-narrow} {
 		@include outer-container(100%)
+		margin-left: 60px;
 	}
 
+	@media #{$brk-small} {
+		margin-left: 15px;
+	}
+
+}
+
+.BREAK_FUCK {
+
+	@media #{$brk-narrow} {
+		margin-bottom: 50px;
+	}
+	
 }
 
 

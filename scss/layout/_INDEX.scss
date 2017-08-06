@@ -4,7 +4,8 @@
     height: 600px;
   	width: 600px;
 
-  	@media (max-width: 768px) {
+
+  	@media #{$brk-narrow} {
 		height: auto;
 		width: 100%;
 	}
@@ -14,7 +15,8 @@
 .studio1 {
 	@include span-columns(6 of 12, table);
 
-	@media (max-width: 768px) {
+
+	@media #{$brk-narrow} {
 		@include span-columns(12 of 12);
 		height: auto;
 	}
@@ -33,7 +35,7 @@
 		@include span-columns(12);
 			font-size: 30px;
 
-		@media (max-width: 768px) {
+		@media #{$brk-narrow} {
 			font-size: 20px;
 			margin-bottom: 80px;
 		}
@@ -55,7 +57,7 @@
 		color: white;
 		transition: .5s ease;
 
-		@media (max-width: 768px) {
+		@media #{$brk-narrow} {
 			@include span-columns(10 of 12, table);
 			font-size: 20px;
 			height: 80px;
@@ -82,7 +84,7 @@ footer {
 	margin-top: 50px;
 	text-align: center;
 
-	@media (max-width: 768px) {
+	@media #{$brk-narrow} {
 			margin-top: 160px;
 		}
 
@@ -90,7 +92,7 @@ footer {
 	a {
 		margin: 80px;
 
-		@media (max-width: 768px) {
+		@media #{$brk-narrow} {
 			margin: 15px;
 		}
 	}

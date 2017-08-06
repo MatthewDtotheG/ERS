@@ -47,6 +47,7 @@
 </div>
 
 
+<div id='hero'>
   <div id="slides">
     <ul class="slides-container">
       <li>
@@ -71,7 +72,7 @@
       </li>
     </ul>
   </div>
-
+</div>
 
 
 

@@ -19,8 +19,18 @@ a:hover {
 	color: $color-gold;
 }
 
-.slides {
-	height: 80%;
+#hero {
+	height: 70vh;
+	width: 100%;
+	position: relative;
+}
+
+#slides {
+	position: relative;
+}
+
+.slides-container {
+	position: relative;
 }
 
 

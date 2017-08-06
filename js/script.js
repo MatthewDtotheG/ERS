@@ -32,7 +32,8 @@ $(function () {
       play: 3000,
       pagination: false,
       hashchange: false,
-
+      inherit_height_from: '#hero',
+      inherit_width_from: '#hero'
   });
 
 

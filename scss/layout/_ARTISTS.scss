@@ -11,14 +11,17 @@
 	div img {
 		height: 120px;
 		width: 120px;
-
-	@media #{$brk-narrow} {
-		height: 100px;
-		width: 100px;
-		}
 	}
 
-
+	@media #{$brk-narrow} {
+		@include span-columns(2 of 12);
+	
+		div img {
+		height: 50px;
+		width: 50px;
+		
+		}
+	}
 
 }
 
