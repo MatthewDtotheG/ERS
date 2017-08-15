@@ -47,7 +47,6 @@
 </div>
 
 
-<div id='hero'>
   <div id="slides">
     <ul class="slides-container">
       <li>
@@ -62,19 +61,14 @@
         <img src="img/1.jpg" alt="">
         
       </li>
-      <li>
-        <img src="img/STOCK.jpg" alt="">
-      
-      </li>
-      <li>
-        <img src="img/STOCK.jpg" alt="">
-        
-      </li>
     </ul>
   </div>
-</div>
 
-
+<!--
+  <div class="HOME_TITLE">
+      <div>ELEMENT RECORDING STUDIOS</div>
+  </div>
+-->
 
 <div id="WRAP">
 

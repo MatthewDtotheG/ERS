@@ -62,7 +62,12 @@ h2 {
 		  position: absolute;
 		  display: block;
 		  z-index: 9999;
+
+		@media #{$brk-narrow} {
+			margin-top: -90%;
+		}
 	}
+
 }
 
 

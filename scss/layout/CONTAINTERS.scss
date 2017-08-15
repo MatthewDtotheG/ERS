@@ -15,12 +15,12 @@
 	@include outer-container(75%);
 
 	@media #{$brk-narrow} {
-		@include outer-container(100%)
-		margin-left: 60px;
+		@include outer-container(85%)
+
 	}
 
 	@media #{$brk-small} {
-		margin-left: 15px;
+
 	}
 
 }

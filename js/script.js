@@ -24,16 +24,17 @@ $(function(){
 
 
 
-//ANCHOR TAGS END ===============================
+// ANCHOR TAGS END  
+// inherit_height_from: '#hero'
+// inherit_width_from: '#hero'
+// 
 
 
 $(function () {
   $('#slides').superslides({
       play: 3000,
       pagination: false,
-      hashchange: false,
-      inherit_height_from: '#hero',
-      inherit_width_from: '#hero'
+      hashchange: false
   });
 
 
@@ -53,35 +54,8 @@ $(function(){
 });
 
 
-
-/* NAV +===========================
-
-$(document).ready(function(){  
-        $("#NAV").hide();                  
-        $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 700) {
-                $('#NAV').fadeIn();
-            } else {
-                $('#NAV').fadeOut();
-            }
-        });
-    });
-
-*/ // NAV  +===========================
-
-
-
 window.sr = ScrollReveal({ duration: 800 });
 sr.reveal('.box', 300);
-
-
-
-
-
-
-
-
-
 
 
 // COLLAPSIBLE NAV MENU ===============================
@@ -102,7 +76,22 @@ $('#nav-icon3').click(function() {
 // COLLAPSIBLE NAV MENU END ===============================
 
 
+// ACCORDIAN 
 
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.previousElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
 
 
 

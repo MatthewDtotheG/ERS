@@ -25,7 +25,6 @@
 
 
 .CONTACT_US {
-
 	height: 350px;
 	@include span-columns(12);
 	margin-top: 100px;
@@ -159,5 +158,27 @@ img:hover {
 
 }
 
+
+
+.HOME_TITLE {
+	max-width: 100%;
+
+	div {
+		  width: 100%;
+		  text-align: center;
+		  margin: auto;
+		  margin-top: -40%;
+		  font-size: 50px;
+		  color: $color-gold;
+		  position: absolute;
+		  display: block;
+		  z-index: 9999;
+
+		@media #{$brk-narrow} {
+			margin-top: -90%;
+		}
+	}
+
+}
 
 
