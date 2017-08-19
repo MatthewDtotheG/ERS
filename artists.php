@@ -128,6 +128,7 @@
       <button class="accordion">More</button>
     </div>
 
+<div id="WRAP_PARTNERS">
       <h1>
         Partners
       </h1>
@@ -135,7 +136,7 @@
       <h2>
         View the labels, partners, publishers, and organizations that feature our work.
       </h2>
-
+</div>
 
 
 <div id="WRAP_PARTNERS">

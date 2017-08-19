@@ -4,19 +4,25 @@
 }
 
 #MARGIN_WRAP {
-	@include outer-container(85%);
+	@include outer-container(90%);
 }
 
 #WRAP {
 	@include outer-container(100%);
+
+	@media screen and (min-width: 2000px) {
+		@include outer-container(90%);
+
+    }
+
 }
 
 #WRAP_PARTNERS {
 	@include outer-container(75%);
 
 	@media #{$brk-narrow} {
-		@include outer-container(85%)
-
+		@include outer-container(90%)
+		transition: .5s;
 	}
 
 	@media #{$brk-small} {

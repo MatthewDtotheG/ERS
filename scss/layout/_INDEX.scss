@@ -18,10 +18,11 @@
 
 	@media #{$brk-narrow} {
 		@include span-columns(12 of 12);
-		height: auto;
+		
 	}
 
 }
+
 
 
 .CONTACT_US {

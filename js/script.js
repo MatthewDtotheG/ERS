@@ -76,7 +76,7 @@ $('#nav-icon3').click(function() {
 // COLLAPSIBLE NAV MENU END ===============================
 
 
-// ACCORDIAN 
+// ACCORDION 
 
 var acc = document.getElementsByClassName("accordion");
 var i;

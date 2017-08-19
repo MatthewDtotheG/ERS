@@ -12,6 +12,7 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  
 }
 
 
@@ -59,10 +60,14 @@
 
 .text {
   color: black;
-  font-size: 33px;
+  font-size: 30px;
   font-weight: bold;
   transition: transform 0.5s;
   text-align: center;
+
+  @media screen and (min-width: 1600px) {
+    font-size: 60px;
+  }
 
   hr {
     margin-bottom: 15%;
