@@ -1,7 +1,7 @@
 <html>
   <head>
     <title> ERS - Artists </title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
     <link rel="shortcut icon" href="img/ER CUBE.png"/>
@@ -18,8 +18,7 @@
  
   <div class="LOGO">
     <a href="/">
-    <img class="image_full" src="img/ER.png">
-    <img class="image_mobile" src="img/ER CUBE.png">
+    <img class="image_full" src="img/ER CUBE.png">
     </a>
   </div>
 
@@ -119,14 +118,15 @@
     <div id="MARGIN_WRAP">
 
       <div class="ARTISTS_LIST">
+        
           Madisen Ward & The Momma Bear, Radkey, Making Movies, The Grisly Hand,Yes You Are, Sly & Robbie, The Taxi Gang, Train, Republic Tigers, The Architects, AY Musik, Radar State, Katie Guillen & The Girls, Mumford & Sons, Josh Berwanger, Minden, Rachel Mallin + The Wild Type, The Big Iron, Triptides, Jorge Arana Trio, Chase The Horseman, Akilles, The Sluts, Me Like Bee's, Mikal Shapiro, The Soft Reeds, La Guerre, Jaenki, The Conquerors, Schwervon, The Thunderclaps, Momma's Boy
       </div>
-        
-        <div class="panel">
-          <p>Sam Baker, The Uncouth, Outsides, Westerners, Teach Me Equals, My Brothers and Sisters, Scott Hrabko, Not A Planet, Lazy, Shapiro Brothers, The New Riddim, Tambourine Club, Edisen, Fiction Department, Spirit is the Spirit, Riala, The Too's, Maps for Travelers, Dead Girls, The Whifs, Krystal Warren, Various Blonde, Herman Mahari, Headlight Rivals, Nicholas Saint James, The Golden Republic, She's a Keeper, Kirsten Paludan, Enebade, Gamelean Genta, My Oh My, The Noise FM, Root & Stem, Abel Ullon, Rudy Swain, The Blackbird Revue, Brian Marquis, Witch Jail, The Electric Lungs, Andrew Foshee,The UK's, Bummer, Brad Cox, The Ragged Few, Coyote, Royalphonic, Lucky Graves, The Yotes, Silver Maggies, Quadrigarum, Sinple, Palace, Vi Tran Band, Cownboy Indian Bear, Dead Voices, Shadow Rabbits, Sneaky Creeps, Psychedelic Black, Fritz Hutchison Band, Freight Train Rabbit Killer, Max Justus, A.J. Young, The Roseline, David Birchfield, Rick Gibbons, Kelly Gant, The Gadjits, John Keck, David Newbould, Samantha Clemmons, HiLux, Janet The Planet, Sage N Sour, Maria the Mexican, Youngblood Supercult, Star Haven Rounders, Black Mariah Theatre, The Gorlons, Hidden Pictures, Mace Batons, Black Stacey, Savannah Terez, The Phantom, Admiral of the Red, Other Americans, Narkalark, Alien Jones, Famous Mammouth, Speed Levitch/Richard Linklater, Actors & Actresses, Satori, American Slim, Phil Neal and the Wornells, Wyatt West, Clairaudients, People Watching, Jupiter and the Moons, Poet Jen Harris, Freon Cool, Ben Moats, Mike Gray, Drew Black & The Dirty Electric, Kissanova, My Boyfriend on Vinyl, Dinsdale, Clay Hughes, Dylan Mcgonigle, The Clementines, The Good Hearts, Connor Leimer, Kate Gray, Bryant Carter Band, Sons of Great Dane, Rex Hobart, Lee Nichols, Jenny Carr, The Magnetics, Outlaw Jake, The DooDads, The Grand Marquies</p>
+      <div class="panel">
+          Sam Baker, The Uncouth, Outsides, Westerners, Teach Me Equals, My Brothers and Sisters, Scott Hrabko, Not A Planet, Lazy, Shapiro Brothers, The New Riddim, Tambourine Club, Edisen, Fiction Department, Spirit is the Spirit, Riala, The Too's, Maps for Travelers, Dead Girls, The Whifs, Krystal Warren, Various Blonde, Herman Mahari, Headlight Rivals, Nicholas Saint James, The Golden Republic, She's a Keeper, Kirsten Paludan, Enebade, Gamelean Genta, My Oh My, The Noise FM, Root & Stem, Abel Ullon, Rudy Swain, The Blackbird Revue, Brian Marquis, Witch Jail, The Electric Lungs, Andrew Foshee,The UK's, Bummer, Brad Cox, The Ragged Few, Coyote, Royalphonic, Lucky Graves, The Yotes, Silver Maggies, Quadrigarum, Sinple, Palace, Vi Tran Band, Cownboy Indian Bear, Dead Voices, Shadow Rabbits, Sneaky Creeps, Psychedelic Black, Fritz Hutchison Band, Freight Train Rabbit Killer, Max Justus, A.J. Young, The Roseline, David Birchfield, Rick Gibbons, Kelly Gant, The Gadjits, John Keck, David Newbould, Samantha Clemmons, HiLux, Janet The Planet, Sage N Sour, Maria the Mexican, Youngblood Supercult, Star Haven Rounders, Black Mariah Theatre, The Gorlons, Hidden Pictures, Mace Batons, Black Stacey, Savannah Terez, The Phantom, Admiral of the Red, Other Americans, Narkalark, Alien Jones, Famous Mammouth, Speed Levitch/Richard Linklater, Actors & Actresses, Satori, American Slim, Phil Neal and the Wornells, Wyatt West, Clairaudients, People Watching, Jupiter and the Moons, Poet Jen Harris, Freon Cool, Ben Moats, Mike Gray, Drew Black & The Dirty Electric, Kissanova, My Boyfriend on Vinyl, Dinsdale, Clay Hughes, Dylan Mcgonigle, The Clementines, The Good Hearts, Connor Leimer, Kate Gray, Bryant Carter Band, Sons of Great Dane, Rex Hobart, Lee Nichols, Jenny Carr, The Magnetics, Outlaw Jake, The DooDads, The Grand Marquies
         </div>
       <button class="accordion">More</button>
     </div>
+
 
 <div id="WRAP_PARTNERS">
       <h1>

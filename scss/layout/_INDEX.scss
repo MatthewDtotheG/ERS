@@ -165,18 +165,25 @@ img:hover {
 	max-width: 100%;
 
 	div {
-		  width: 100%;
-		  text-align: center;
-		  margin: auto;
-		  margin-top: -40%;
-		  font-size: 50px;
-		  color: $color-gold;
+		  line-height: 120%;
+		  margin-left: 12%;
+		  margin-top: -35%;
+		  font-size: 80px;
+		  color: white;
 		  position: absolute;
 		  display: block;
 		  z-index: 9999;
+		  text-align: left;
+		  border-bottom: 1px solid white;
 
 		@media #{$brk-narrow} {
-			margin-top: -90%;
+			margin-top: -48%;
+			margin-left: 25%;
+		}
+		@media #{$brk-small} {
+			
+			margin-top: -88%;
+			margin-left: 4%;
 		}
 	}
 

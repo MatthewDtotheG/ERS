@@ -1,6 +1,7 @@
 
 #MAIN_WRAP {
 	@include outer-container(100%);
+
 }
 
 #MARGIN_WRAP {
@@ -25,16 +26,12 @@
 		transition: .5s;
 	}
 
-	@media #{$brk-small} {
-
-	}
-
 }
 
 .BREAK_FUCK {
 
 	@media #{$brk-narrow} {
-		margin-bottom: 50px;
+		margin-bottom: 110px;
 	}
 	
 }

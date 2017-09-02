@@ -1,8 +1,10 @@
 <html>
   <head>
-    <title> ERS </title>
+    <title> ERS - Contact </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="img/ER CUBE.png"/>
   </head>
 
 
@@ -13,8 +15,7 @@
  
   <div class="LOGO">
     <a href="/">
-    <img class="image_full" src="img/ER.png">
-    <img class="image_mobile" src="img/ER CUBE.png">
+    <img class="image_full" src="img/ER CUBE.png">
     </a>
   </div>
 
@@ -58,12 +59,12 @@
 
       <p>
         Pricing, rates, and policy information can be found on our<br>
-        <a href="staff.php">Staff</a> page.
+        <a style="cursor:pointer" href="staff.php">Staff</a> page.
       </p>
 
       <p>
         Gear, space, and software information can be found on our<br>
-        <a href="studioA.php">Studio A</a> and  <a href="studioB.php">Studio B</a> pages.
+        <a style="cursor:pointer" href="studioA.php">Studio A</a> and  <a style="cursor:pointer"href="studioB.php">Studio B</a> pages.
       </p>
 
 

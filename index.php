@@ -1,10 +1,11 @@
 <html>
   <head>
     <title> Element Recording Studios </title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-    <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="shortcut icon" href="img/ER CUBE.png"/>
+    <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
 
 
@@ -18,8 +19,7 @@
  
   <div class="LOGO">
     <a href="/">
-    <img class="image_full" src="img/ER.png">
-    <img class="image_mobile" src="img/ER CUBE.png">
+    <img class="image_full" src="img/ER CUBE.png">
     </a>
   </div>
 
@@ -50,25 +50,32 @@
   <div id="slides">
     <ul class="slides-container">
       <li>
-        <img src="img/2.jpg" alt="">
+        <img class="FUCK" src="img/2.png" alt="">
        
       </li>
       <li>
-        <img src="img/0.jpg" alt="">
+        <img class="FUCK" src="img/0.png" alt="">
       
       </li>
       <li>
-        <img src="img/1.jpg" alt="">
+        <img class="FUCK" src="img/1.png" alt="">
+        
+      </li>
+      <li>
+        <img class="FUCK" src="img/3.png" alt="">
         
       </li>
     </ul>
   </div>
 
-<!--
+
   <div class="HOME_TITLE">
-      <div>ELEMENT RECORDING STUDIOS</div>
+      <div>Element<br> 
+           Recording<br>
+           Studios<br>
+      </div>
   </div>
--->
+
 
 <div id="WRAP">
 
@@ -76,7 +83,7 @@
     <div class="container">
         <img class="image" src="img/STUDIOA.jpg">
         <div class="middle">
-          <div class="text">STUDIO A</div>
+          <div class="text">Studio A</div>
         </div>
     </div>
   </a>
@@ -86,7 +93,7 @@
    <div class="container">
         <img class="image" src="img/STUDIOB.jpg">
         <div class="middle">
-          <div class="text">STUDIO B</div>
+          <div class="text">Studio B</div>
         </div>
    </div>
   </a>
@@ -139,19 +146,13 @@
   <div>2017 <span>|</span> Element Recording <span>Studios</span> </div>
 
 </footer>
-
-   
-
-
 </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script src="js/jquery.superslides.min.js"></script>
-<script src="js/script.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

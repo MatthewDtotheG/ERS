@@ -1,8 +1,10 @@
 <html>
   <head>
     <title> ERS - Staff </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="img/ER CUBE.png"/>
   </head>
 
 
@@ -16,8 +18,7 @@
  
   <div class="LOGO">
     <a href="/">
-    <img class="image_full" src="img/ER.png">
-    <img class="image_mobile" src="img/ER CUBE.png">
+    <img class="image_full" src="img/ER CUBE.png">
     </a>
   </div>
 

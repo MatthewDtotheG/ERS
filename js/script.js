@@ -25,9 +25,7 @@ $(function(){
 
 
 // ANCHOR TAGS END  
-// inherit_height_from: '#hero'
-// inherit_width_from: '#hero'
-// 
+
 
 
 $(function () {
@@ -54,8 +52,12 @@ $(function(){
 });
 
 
+// SCROLL REVEAL ===============================
+
 window.sr = ScrollReveal({ duration: 800 });
 sr.reveal('.box', 300);
+
+// SCROLL REVEAL END ===============================
 
 
 // COLLAPSIBLE NAV MENU ===============================
@@ -76,7 +78,7 @@ $('#nav-icon3').click(function() {
 // COLLAPSIBLE NAV MENU END ===============================
 
 
-// ACCORDION 
+// ACCORDION ===============================
 
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -93,6 +95,6 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 
-
+// ACCORDION END ===============================
 
 

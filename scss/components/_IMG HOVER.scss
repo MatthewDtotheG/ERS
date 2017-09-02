@@ -25,6 +25,12 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 
+    @media #{$brk-narrow} {
+      width: 100%;
+      opacity: .8;
+      background-color: $color-gold;
+
+  }
 
 }
 
@@ -35,7 +41,9 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+
+
 }
 
 .container:hover .image {
@@ -60,7 +68,7 @@
 
 .text {
   color: black;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   transition: transform 0.5s;
   text-align: center;
@@ -91,9 +99,9 @@
         }
 
       .text {
-        color: $color-white;
-        font-size: 45px;
-
+        color: black;
+        font-size: 50px;
+        opacity: 1;
         }
 
       .container:hover .middle {

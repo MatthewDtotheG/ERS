@@ -1,7 +1,9 @@
 <html>
   <head>
-    <title> ERS </title>
+    <title> ERS - Studio A </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="shortcut icon" href="img/ER CUBE.png"/>
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
 
@@ -15,8 +17,7 @@
  
   <div class="LOGO">
     <a href="/">
-    <img class="image_full" src="img/ER.png">
-    <img class="image_mobile" src="img/ER CUBE.png">
+    <img class="image_full" src="img/ER CUBE.png">
     </a>
   </div>
 
@@ -46,19 +47,19 @@
      <div id="slides">
       <ul class="slides-container">
         <li>
-          <img src="img/3.jpg" alt="">
+          <img src="img/3.png" alt="">
          
         </li>
         <li>
-          <img src="img/4.jpg" alt="">
+          <img src="img/4.png" alt="">
         
         </li>
         <li>
-          <img src="img/1.jpg" alt="">
+          <img src="img/1.png" alt="">
           
         </li>
         <li>
-          <img src="img/2.jpg" alt="">
+          <img src="img/2.png" alt="">
         
         </li>
         <li>
@@ -202,16 +203,13 @@
 
       <div class="ITEMS">
           <h2>Guitars/Strings</h2>
-          Fender P bass<br>
-          Fender Jazz bass<br>
+          Fender P bass, Fender Jazz bass<br>
           Hofner Bass<br>
           Gretsch Baritone<br>
           Guild DeArmond<br>
-          Epiphone Dot<br>
-          Epiphone SG<br>
+          Epiphone Dot, Epiphone SG<br>
           Rickenbacker 620<br>
-          Reverend Jetstream<br>
-          Reverend Double Agent<br>
+          Reverend Jetstream, Reverend Double Agent<br>
           Danelectro 59<br>
           Burns London Cobra Strat<br>
           Harmony Classical <br>

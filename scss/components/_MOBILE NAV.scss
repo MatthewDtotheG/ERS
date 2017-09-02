@@ -1,20 +1,7 @@
 
 
 /* MOBILE MENU   ====================*/ 
-
-@media #{$brk-fix} {
-
-
-.LOGO {
-  height: 100%;
-  width: 100%;
-
-}
  
-
-.image_full{
-   display: none;
-  } 
 
 .image_mobile {
   display: flex;
@@ -25,31 +12,71 @@
  }
   
 #NAV {
-	position: fixed;
+	position: absolute;
 	z-index: 900000;
-    width: 100%;
-    top: 0;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  top: 0;
+
+    -moz-animation-name: NAV;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-duration: 1s;
+
+    -webkit-animation-name: NAV;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+
+    animation-name: NAV;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+  
 }
 
-.NAV {
-    height: 50px;
-  }
+
+@-moz-keyframes NAV {
+    100% {
+        -moz-transform: translateY(0);
+    }
+   0% {
+        -webkit-transform: translateY(-250px);
+    }
+}
+
+@-webkit-keyframes NAV {
+    100% {
+        -webkit-transform: translateY(0);
+    }
+    0% {
+        -webkit-transform: translateY(-250px);
+    }
+}
+@keyframes NAV {
+    100% {
+        transform: translateY(0);
+    }
+    0% {
+        transform: translateY(-250px);
+    }
+}
+
   
 #NAVMENU {
     @include span-columns(12);
-    position: absolute;
-    top: 50px;
+    position: fixed;
     left: 0;
     text-align: center;
     background: black;
     display: none;
+    height: 100%;
+    padding-top: 40px;
   }
 
 #NAVMENU .nav-mobile-wrap {
     height: calc(100vh - 50px);
     padding: 30px 0;
+
   }
 
 .NAV_ITEMS {
@@ -75,10 +102,14 @@
   
   #NAVMENU a {
     display: inline-block;
-    margin: 35px 0;
+    margin: 25px 0;
     margin-right: 67%;
     color: white;
-    font-size: 20px;
+    font-size: 50px;
+    line-height: 100%;
+      @media #{$brk-narrow} {
+        font-size: 30px;
+      }
     }
 
   #NAVMENU a:hover {
@@ -102,13 +133,13 @@
 
   /* Icon 2 */
   #nav-icon3 {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 100px;
     position: relative;
     margin: auto;
-    margin-top: 13px;
+    margin-top: 6.5%;
     margin-bottom: 0px;
-    margin-right: 25px;
+    margin-right: 5%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -118,6 +149,15 @@
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+
+    @media #{$brk-narrow} {
+      margin-top: 9%;
+    }
+ }
+
+ #nav-icon3.open {
+    position: fixed;
+    right: 0;
  }
 
   #nav-icon3 span {
@@ -125,7 +165,7 @@
     position: absolute;
     height: 3px;
     width: 100%;
-    background: black;
+    background-color: $color-gold;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -139,6 +179,7 @@
     transition: .25s ease-in-out; }
 
   /* Icon 3 */
+
   #nav-icon3 span:nth-child(1) {
     top: 0px; }
 
@@ -170,6 +211,6 @@
     width: 0%;
     left: 50%; }
 
-  }
+  
 
 /* MOBILE MENU END   ====================*/

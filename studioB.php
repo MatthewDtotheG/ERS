@@ -1,8 +1,10 @@
 <html>
   <head>
-    <title> ERS </title>
+    <title> ERS - Studio B </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="img/ER CUBE.png"/>
   </head>
 
 
@@ -15,8 +17,7 @@
  
   <div class="LOGO">
     <a href="/">
-    <img class="image_full" src="img/ER.png">
-    <img class="image_mobile" src="img/ER CUBE.png">
+    <img class="image_full" src="img/ER CUBE.png">
     </a>
   </div>
 
@@ -79,62 +80,51 @@
     
 
 
-    <div class="STUDIO_BLURB1">Microphones</div>
+    <div class="STUDIO_BLURB1"><span>Microphones</span></div>
 
 
     <div id="WRAP">
-
       <div class="ITEMS">
-
-          <h2>Preamps & Outboard</h2>
-
-          Justo Consectetur Dolor<br>
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-           Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-           Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
+          <h2>Condensor/Tube Mics</h2>
+          Neumann U87<br> 
+          Neumann KM184 (2)<br> 
+          AKG C414 (2)<br> 
+          AKG 900E (2)<br>
+          Charter Oak SA538<br> 
+          Charter Oak S600 (2)<br> 
+          Oktava MK012 (2)<br> 
+          Shure SM81 (2)<br>
+          Audio Technica AE3000<br> 
+          Rode NT5 (2)<br> 
+          EV PL37<br> 
       </div>
 
       <div class="ITEMS">
-          <h2>Microphones</h2>
-
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
+          <h2>Dynamic Mics</h2>
+          Shure SM57 (4), Shure SM58 (4)<br>
+          Shure Unidyne 545SD (6)<br>
+          Shure SM7A, Shure SM7B (2)<br>
+          Shure B52, Shure Green Bullet<br>
+          AKG D12, AKG D112<br>
+          AKG D14, AKG D1200E (2)<br>
+          AKG D310S, AKC D707C<br>
+          Sennheiser 420 (2), Sennheiser 441<br>
+          Sennheiser e604 (2), Sennheiser e835<br>
+          EV RE320, EV 655A<br>
+          Audio Technical ATM25<br> 
+          Placid Audio Copperphone<br>
       </div>
 
       <div class="ITEMS">
-          <h2>Instruments & Amps</h2>
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-      </div>
 
+          <h2>Ribbon Mics</h2>
+
+          Royer 121 (2)<br>
+          AEA R84<br> 
+          Stager SR1A (2)<br> 
+          Stager SR2N (4)<br>
+          and more...<br>
+      </div>
     </div>
 
 
@@ -146,32 +136,128 @@
 
       <div class="ITEMS">
 
-          Justo Consectetur Dolor<br>
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-           Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
+          Coil Audio CA286 Preamp (4)<br>
+          Coil Audio CA70 Preamp (4)<br>
+          API/Heider 312 Preamp (5)<br>
+          Neve Portico Preamp/Comp 5015<br>
+          UA 610 LA610 mkii Preamp/Comp<br>
+          UA 6176 Preamp/Comp<br>
       </div>
 
       <div class="ITEMS">
-
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
+          Focusrite ISA 110  Preamp (8)<br>
+          Avalone U5 DI<br>
+          Aphex CX1 Compressor (4)<br>
+          Aphex Dominator/Limiter<br>
+          Empirical Labs Distressor (2)<br>
+          Tube Tech LCA2B Stereo Compressor<br>
+          SSL G Series Stereo Compressor<br>
       </div>
 
       <div class="ITEMS">
+          Master Room Spring Reverb<br>
+          Tapco 4400 Spring Reverb<br>
+          Lexicon Digital Reverb<br>
+          Industrial Research DF4015 Delay (2)<br>
+          SPL Mixdream/Summing/Limiter<br>
+          Effectron ii<br>
+      </div>
 
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
-          Consectetur Dolor<br> 
-          Etiam Ligula<br>
-          Justo Consectetur Dolor<br> 
-          Etiam Ligula Justo<br> 
+    </div>
+
+
+    <div class="STUDIO_BLURB1">Instruments</div>
+
+
+    <div id="WRAP">
+
+      <div class="ITEMS">
+
+          <h2>Keyboards</h2>
+          Fender Rhodes Suitcase<br>
+          Fender Contempo Organ<br>
+          Wurlitzer 200A<br>
+          Hammond M103 Organ/Leslie<br>
+          Honer International Organ<br>
+          Italian Farfisa<br>
+          Studio Console Piano<br>
+          Korg Micro-synth<br>
+          Kent Accordion Console<br>
+          Vintage Pump Organ<br>
+          Harmonium<br>
+          Akai Axiom Pro 49 Midi Controller<br>
+          Yamaha Synth PSS470<br>
+      </div>
+
+      <div class="ITEMS">
+          <h2>Percussion</h2>
+          C&C Dum Kits (4)<br>
+          maple, walnut, mahogany<br>
+          Snare Drums (15)<br>
+          Cymbals (Vintage Zildjian/Instanbull/Paste)<br>
+          Congas/Bongos/Tablas<br>
+          Arturia Drumbrute Analog Synth<br>
+          Marimba/Xylophones<br>
+          Tambos/Shakers/wood blocks<br>
+          cowbells/cabasas<br>
+      </div>
+
+      <div class="ITEMS">
+          <h2>Guitars/Strings</h2>
+          Fender P bass<br>
+          Fender Jazz bass<br>
+          Hofner Bass<br>
+          Gretsch Baritone<br>
+          Guild DeArmond<br>
+          Epiphone Dot<br>
+          Epiphone SG<br>
+          Rickenbacker 620<br>
+          Reverend Jetstream<br>
+          Reverend Double Agent<br>
+          Danelectro 59<br>
+          Burns London Cobra Strat<br>
+          Harmony Classical <br>
+          Gibson 60's Acoustic<br>
+          Silvertone Acoustic<br>
+          Recording King Acoustic<br>
+          Alvarez Acoustic<br>
+          Washburn 12 string Acoustic<br>
+          Dearing Banjo<br>
+          Antares Mando<br>
+          Lapsteel<br>
+          Uklele <br>
+          Cello/Violin<br>
+      </div>
+    </div>
+
+
+    <div class="STUDIO_BLURB1">Amplifiers</div>
+
+
+    <div id="WRAP">
+
+      <div class="ITEMS">
+          Fender Champ<br> 
+          Fender Vibrolux<br> 
+          Vox AC30<br> 
+          Ampeg G12<br> 
+          Ampeg Jet II<br> 
+      </div>
+
+      <div class="ITEMS">
+          Ampeg V4BH<br>
+          Sound K101R<br>
+          Sound K505R<br>
+          Sound X505R<br>
+          Budha Super 18<br>
+      </div>
+
+      <div class="ITEMS">
+          Magnatone Varsity<br>
+          Harmony<br>
+          National<br>
+          Cabs (10/12,15)<br>
+          Pedals (lots of them)<br>
       </div>
 
     </div>
