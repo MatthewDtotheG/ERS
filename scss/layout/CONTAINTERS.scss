@@ -6,16 +6,34 @@
 
 #MARGIN_WRAP {
 	@include outer-container(90%);
+
+		@media screen and (min-width: 2000px) {
+		@include outer-container(70%);
+
+    }
 }
 
 #WRAP {
 	@include outer-container(100%);
 
 	@media screen and (min-width: 2000px) {
-		@include outer-container(90%);
+		@include outer-container(70%);
 
     }
 
+}
+
+#WRAP_STUDIO {
+	@include outer-container(100%);
+
+	@media screen and (min-width: 2000px) {
+		@include outer-container(70%);
+    }
+
+	@media screen and (min-width: 1095px) {
+			@include outer-container(70%);
+			display: inline;
+	  }
 }
 
 #WRAP_PARTNERS {
@@ -29,16 +47,14 @@
 }
 
 .BREAK_FUCK {
-
 	@media #{$brk-narrow} {
 		margin-bottom: 110px;
 	}
-	
 }
 
 
 .BREAK {
-  margin-bottom: 250px;
+  margin-bottom: 100px;
   z-index: 900000;
   @include span-columns(12);
 }

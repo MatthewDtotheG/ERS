@@ -2,23 +2,22 @@
   <head>
     <title> ERS - Artists </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://elementrecordingstudios.com/img/SOCIALCUBE.png" />
+    <meta property="og:description" content="Kansas City's Premiere Recording Studio" />
+    <meta property="og:title" content="Element Recording Studios" />
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
-    <link rel="shortcut icon" href="img/ER CUBE.png"/>
+    <link rel="shortcut icon" href="img/ERCUBE.png"/>
   </head>
-
-
 <body>
 
 <div id="MAIN_WRAP">
 
-
 <div id="NAV" class="NAV">
 
- 
   <div class="LOGO">
     <a href="/">
-    <img class="image_full" src="img/ER CUBE.png">
+    <img class="image_full" src="img/ERCUBE.png">
     </a>
   </div>
 
@@ -29,7 +28,7 @@
         <a href="studioB.php">Studio B</a>
         <a href="staff.php">Staff</a>
         <a href="artists.php">Artists</a>
-        <a href="contact.php">Contact</a>
+        <a href="rates-policies.php">Contact / Rates</a>
       </div>
     </div>
   </div>
@@ -50,70 +49,55 @@
 <div class="BREAK_FUCK"></div>
 
 <div id="WRAP">
-
       <div class="ALBUMS">
             <img src="img/ART0.jpg">
       </div>
-
       <div class="ALBUMS">
             <img src="img/ART1.jpg">
       </div>
-
        <div class="ALBUMS">
             <img src="img/ART2.jpg">
       </div>
-
        <div class="ALBUMS">
             <img src="img/ART3.jpg">
       </div>
-
 </div>
 
 
 <div id="WRAP">
-
       <div class="ALBUMS">
             <img src="img/ART4.jpg">
       </div>
-
       <div class="ALBUMS">
             <img src="img/ART5.jpg">
       </div>
-
        <div class="ALBUMS">
             <img src="img/ART6.jpg">
       </div>
-
        <div class="ALBUMS">
             <img src="img/ART7.jpg">
       </div>
-
 </div>
+
+<a href="#arrow" class="arrow2">
+  <img src="img/arrow.png" class="blink-image"></img>
+</a>
 
 <div class="ARTISTS">
   
-  <h1>
+  <h1 id="arrow">
     Audio Samples
   </h1>
 
-  <h2>
-    Hear it for yourself.
-  </h2>
-
   <div class="AUDIO">
 
-      <iframe width="90%" height="750" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/88145780&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      <iframe width="75%" height="750" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/88145780&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
   </div>
 
   <h1>
     Artists
   </h1>
-
-  <h2>
-    Check out the folks who have partnered with us.
-  </h2>
-
 
     <div id="MARGIN_WRAP">
 
@@ -127,16 +111,7 @@
       <button class="accordion">More</button>
     </div>
 
-
-<div id="WRAP_PARTNERS">
-      <h1>
-        Partners
-      </h1>
-
-      <h2>
-        View the labels, partners, publishers, and organizations that feature our work.
-      </h2>
-</div>
+    <div class="BREAK"></div>
 
 
 <div id="WRAP_PARTNERS">
@@ -236,44 +211,31 @@
       </div>
 
 </div>
-
-      <h1>
-        In Great Company
-      </h1>
-
-      <h2>
-        Want to join the artists and publishers who have worked with us?
-      </h2>
-
       <div class="STAFF_CONTACT">
-      <a href="contact.php">
+      <a href="rates-policies.php">
         <button>Contact Us</button>
       </a>
       </div>
-  
 </div>
 
 
 <footer class="ART_FOOT">	
-
   <a href="https://www.facebook.com/elementrecordingstudios/" target="_blank">
-    <img src="img/FB.png">
+    <img src="img/FB.svg">
   </a>
-
   <a href="https://twitter.com/ElementRecord" target="_blank">
-    <img src="img/TWIT.png">
+    <img src="img/TWIT.svg">
   </a>
-
   <a href="https://soundcloud.com/element-recording" target="_blank">
-    <img src="img/SC.png">
+    <img src="img/SC.svg">
   </a>
-
-  <a href="">
-    <img src="img/YT.png" target="_blank">
+  <a href="https://www.instagram.com/elementrecording/" target="_blank">
+    <img src="img/IG.svg">
   </a>
-
+  <a href="https://www.youtube.com/user/elementrecording/featured" target="_blank">
+    <img src="img/YT.svg">
+  </a>
   <div>2017 <span>|</span> Element Recording <span>Studios</span> </div>
-
 </footer>
 
    

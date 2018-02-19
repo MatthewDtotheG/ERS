@@ -1,0 +1,21 @@
+
+.ITEMS_B {
+	@include span-columns(12)
+	display: block;
+	text-align: center;
+	line-height: 300%;
+	h2 {
+		margin: 30px 0px;
+	}
+	@media #{$brk-small} {
+		line-height: 200%;
+	}
+}
+
+.BACK {
+	height: 100vh;
+	width: 200%;
+}
+
+
+

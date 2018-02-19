@@ -26,6 +26,8 @@
 	}
 }
 
+
+
 .STAFF_BOTTOM {
 	@include span-columns(12)
 	font-family: 'Work Sans', sans-serif;
@@ -41,9 +43,9 @@
 }
 
 .STAFF_CONTACT {
-	height: 350px;
+	height: 250px;
 	@include span-columns(12);
-	margin-top: 50px;
+	margin-top: 100px;
 	text-align: center;
 
 	@media #{$brk-narrow} {
@@ -92,7 +94,7 @@
 .ITEMS_0 {
 	@include span-columns(6)
 		display: block;
-		margin-bottom: 200px;
+		margin-bottom: 100px;
 		text-align: center;
 		line-height: 200%;
 		padding: 30px;
@@ -147,7 +149,7 @@
 .ITEMS_1 {
 	@include span-columns(4)
 	display: block;
-	margin-bottom: 100px;
+	margin-bottom: 0px;
 	text-align: center;
 	line-height: 200%;
 	padding: 10px;

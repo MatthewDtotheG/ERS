@@ -1,9 +1,13 @@
+<?php include('perch/runtime.php'); ?>
 <html>
   <head>
     <title> ERS - Studio A </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://elementrecordingstudios.com/img/SOCIALCUBE.png" />
+    <meta property="og:description" content="Kansas City's Premiere Recording Studio" />
+    <meta property="og:title" content="Element Recording Studios" />
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-    <link rel="shortcut icon" href="img/ER CUBE.png"/>
+    <link rel="shortcut icon" href="img/ERCUBE.png"/>
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
 
@@ -11,13 +15,12 @@
 <body>
 
 <div id="MAIN_WRAP">
-
 <div id="NAV" class="NAV">
 
  
   <div class="LOGO">
     <a href="/">
-    <img class="image_full" src="img/ER CUBE.png">
+    <img class="image_full" src="img/ERCUBE.png">
     </a>
   </div>
 
@@ -28,7 +31,7 @@
         <a href="studioB.php">Studio B</a>
         <a href="staff.php">Staff</a>
         <a href="artists.php">Artists</a>
-        <a href="contact.php">Contact</a>
+        <a href="rates-policies.php">Contact / Rates</a>
       </div>
     </div>
   </div>
@@ -41,30 +44,16 @@
           <span></span>
         </div>
       </a>
-
 </div>
+
+      <a href="#arrow" class="arrow">
+        <img src="img/arrow.png" class="blink-image"></img>
+      </a>
 
      <div id="slides">
       <ul class="slides-container">
         <li>
-          <img src="img/3.png" alt="">
-         
-        </li>
-        <li>
-          <img src="img/4.png" alt="">
-        
-        </li>
-        <li>
-          <img src="img/1.png" alt="">
-          
-        </li>
-        <li>
-          <img src="img/2.png" alt="">
-        
-        </li>
-        <li>
-          <img src="img/4.jpg" alt="">
-          
+          <img src="img/2.jpg" alt="">
         </li>
       </ul>
     </div>
@@ -74,8 +63,22 @@
   </div>
 
 
-    <h1 class="STUDIO_BLURB">Studio A is our primary liveroom, includes 2 isolation rooms,<br> and offers the best in both Analog & Digital recording.
+    <h1 id="arrow" class="STUDIO_BLURB">Studio A is our primary liveroom, includes 2 isolation rooms, and offers the best in both Analog & Digital recording.
     </h1>
+
+    <div class="STUDIO_BLURB2">
+      3 Avid 192 interfaces w/32 Channel Analog Input, 24 Channels Analog Output, and an Apogee Big Ben Clock
+    </div>
+
+    <div class="STUDIO_BLURB2">
+      Pro Tools HD3, Avid Control 24, SPL Mix Dream Analog Summing, Tascam 8 track tape, Redco patch bays & SPL Monitoring.
+    </div>
+
+    <div class="STUDIO_BLURB2">
+      Monitors: JBL LSR6328, Yamaha NS10, Auratone, Bowers & Wilkins, NHT 
+      Software: Pro Tools, Logic, Reason, Ableton Live, Garage Band 
+      Plug-ins: So extensive you'll have to ask... 
+    </div>
     
 
 
@@ -106,7 +109,7 @@
           Shure B52, Shure Green Bullet<br>
           AKG D12, AKG D112<br>
           AKG D14, AKG D1200E (2)<br>
-          AKG D310S, AKC D707C<br>
+          AKG D310S, AKG D707C<br>
           Sennheiser 420 (2), Sennheiser 441<br>
           Sennheiser e604 (2), Sennheiser e835<br>
           EV RE320, EV 655A<br>
@@ -141,11 +144,11 @@
           Neve Portico Preamp/Comp 5015<br>
           UA 610 LA610 mkii Preamp/Comp<br>
           UA 6176 Preamp/Comp<br>
+          Focusrite ISA 110  Preamp (8)<br>
       </div>
 
       <div class="ITEMS">
-          Focusrite ISA 110  Preamp (8)<br>
-          Avalone U5 DI<br>
+          UREI 1178 FET Stereo Compressor<br>
           Aphex CX1 Compressor (4)<br>
           Aphex Dominator/Limiter<br>
           Empirical Labs Distressor (2)<br>
@@ -160,6 +163,7 @@
           Industrial Research DF4015 Delay (2)<br>
           SPL Mixdream/Summing/Limiter<br>
           Effectron ii<br>
+          Avalone U5 DI<br>
       </div>
 
     </div>
@@ -255,38 +259,32 @@
           Cabs (10/12,15)<br>
           Pedals (lots of them)<br>
       </div>
-
     </div>
 
-    <div class="STUDIO_BLURB">Want to book some time or find out more?</div>
-
     <div class="STAFF_CONTACT">
-      <a href="contact.php">
+      <a href="rates-policies.php">
         <button>Contact Us</button>
       </a>
     </div>
 
 
 <footer>
-  
   <a href="https://www.facebook.com/elementrecordingstudios/" target="_blank">
-    <img src="img/FB.png">
+    <img src="img/FB.svg">
   </a>
-
   <a href="https://twitter.com/ElementRecord" target="_blank">
-    <img src="img/TWIT.png">
+    <img src="img/TWIT.svg">
   </a>
-
   <a href="https://soundcloud.com/element-recording" target="_blank">
-    <img src="img/SC.png">
+    <img src="img/SC.svg">
   </a>
-
-  <a href="">
-    <img src="img/YT.png" target="_blank">
+  <a href="https://www.instagram.com/elementrecording/?hl=en" target="_blank">
+    <img src="img/IG.svg">
   </a>
-
+  <a href="https://www.youtube.com/user/elementrecording/featured" target="_blank">
+    <img src="img/YT.svg">
+  </a>
   <div>2017 <span>|</span> Element Recording <span>Studios</span> </div>
-
 </footer>
 
 

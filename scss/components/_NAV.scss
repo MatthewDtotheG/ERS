@@ -33,17 +33,11 @@
 	@include span-columns(4 of 12);
 	margin-top: 5%;
 	margin-left: 5%;
-
-
 	@media #{$brk-narrow} {
 			height: 60px;
 			width: 60px;
-	}
-	
+	}	
 }
-
-
-
 
 .MENUITEM_ON {
   color: $color-gold; 

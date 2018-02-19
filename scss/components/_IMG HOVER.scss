@@ -6,13 +6,12 @@
     background-color: $color-white;
 }
 
+
 .image {
   opacity: 0.3;
-  display: block;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  
 }
 
 
@@ -29,9 +28,7 @@
       width: 100%;
       opacity: .8;
       background-color: $color-gold;
-
   }
-
 }
 
 .middle1 {
@@ -84,7 +81,7 @@
 }
 
 .container:hover .text1{
-   transform: translateY(-60px);   
+   transform: translateY(-60px);
   }
 
 .container:hover .text{
@@ -93,7 +90,7 @@
 
 
   @media only screen and #{$brk-narrow} {
-  
+
       .image {
         opacity: 1;
         }
@@ -113,10 +110,3 @@
         }
 
 }
-
-
-
-
-
-
-

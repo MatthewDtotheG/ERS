@@ -11,10 +11,10 @@ $(function(){
 
       $('html, body').stop().animate({
           'scrollTop': $target.offset().top
-      }, 2000, 'swing', function () {
+      }, 900, 'swing', function () {
           window.location.hash = target;
       });
-      
+
       if(windowWidth < 769){
         $('#nav-icon3').removeClass('open')
         $('#NAVMENU').fadeOut(300)
@@ -24,19 +24,14 @@ $(function(){
 
 
 
-// ANCHOR TAGS END  
+// ANCHOR TAGS END
 
 
-
-$(function () {
   $('#slides').superslides({
-      play: 3000,
+      play: 8000,
       pagination: false,
       hashchange: false
   });
-
-
-});
 
 
 
@@ -54,8 +49,8 @@ $(function(){
 
 // SCROLL REVEAL ===============================
 
-window.sr = ScrollReveal({ duration: 800 });
-sr.reveal('.box', 300);
+window.sr = ScrollReveal({ duration: 300 });
+sr.reveal('.box', 100);
 
 // SCROLL REVEAL END ===============================
 
@@ -91,10 +86,8 @@ for (i = 0; i < acc.length; i++) {
       panel.style.maxHeight = null;
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
+    }
   }
 }
 
 // ACCORDION END ===============================
-
-

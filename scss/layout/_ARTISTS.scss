@@ -11,24 +11,19 @@
 		height: 100px;
 		width: 100px;
 	}
-
 	@media #{$brk-narrow} {
 		@include span-columns(2 of 10);
-	
 		div img {
 		height: 50px;
 		width: 50px;
-		
 		}
 	}
-
 }
 
 .AUDIO {
 	position: relative;
 	margin-bottom: 100px;
 }
-
 
 .ART_FOOT {
 	position: relative;
@@ -44,11 +39,13 @@
 
 	h1 {
 		margin-top: 100px;
-		margin-bottom: 0px;
+		margin-bottom: 100px;
 		font-size: 50px;
 		font-family: 'Work Sans', sans-serif;
-		@media (max-width: 768px) {
+		@media #{$brk-narrow} {
 			font-size: 30px;
+			margin-top: 100px;
+			margin-bottom: 30px;
 		}
 	}
 
@@ -62,7 +59,6 @@
 			font-size: 20px;
 		}
 	}
-
 }
 
 .ARTISTS_LIST {
@@ -106,18 +102,21 @@ button.accordion {
 			font-size: 20px;
 			height: 80px;
 			margin: auto;
-			margin-top: 10px;
+			margin-top: 80px;
 			display: block;
 		}
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     background-color: white;
 	color: black;
 	border: 1px solid black;
+	
 }
-
+button:focus {
+    outline: none;
+    border: none;
+}
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0px 10px;

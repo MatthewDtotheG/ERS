@@ -1,21 +1,41 @@
 
 
 .STUDIO_BLURB,
-.STUDIO_BLURB1 {
+.STUDIO_BLURB1, 
+.STUDIO_BLURB2 {
 	@include span-columns(12)
 	font-family: 'Work Sans', sans-serif;
 	font-size: 30px;
+	padding: 10%;
 	padding-top: 120px;
 	padding-bottom: 20px;
+
 	text-align: center;
 	font-weight: bold;
 	text-decoration: none;
 
 	@media #{$brk-small} {
-		padding: 40px 10px 10px 10px;
+		padding: 50px 10px 10px 10px;
 		font-size: 20px;
 	}
+}
 
+.STUDIO_BLURB2 {
+	font-size: 30px;
+	padding-top: 50px;
+
+	a {
+		color: $color-gold;
+	}
+
+	a:hover {
+		color: black;
+	}
+
+	@media #{$brk-small} {
+		text-align: center;
+		padding: 60px 10px 10px 10px;
+	}
 }
 
 .STUDIO_BLURB1 {
